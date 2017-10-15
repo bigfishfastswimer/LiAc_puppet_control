@@ -20,15 +20,15 @@ mod "puppetlabs/java",      '1.6.0'
 
 mod 'ssh',
   :git    => 'https://github.com/bigfishfastswimer/LiAc_puppet_ssh.git',
-  :ref    => 'dev'
+  :ref    => 'master'
 
 
 mod 'ntp',
   :git    => 'https://github.com/bigfishfastswimer/-LiAc_puppet_ntp.git',
-  :ref    => 'dev'
+  :ref    => 'master'
 
 
 mod 'profile',
   :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
-  :ref    => 'dev'
+  :ref    => 'master'
 
