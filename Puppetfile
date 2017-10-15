@@ -17,12 +17,17 @@ mod "puppetlabs/java",      '1.6.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
 mod 'ssh',
   :git    => 'https://github.com/bigfishfastswimer/LiAc_puppet_ssh.git',
   :ref    => 'dev'
+
+
 mod 'ntp',
   :git    => 'https://github.com/bigfishfastswimer/-LiAc_puppet_ntp.git',
   :ref    => 'dev'
+
+
 mod 'profile',
   :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
   :ref    => 'dev'
