@@ -30,5 +30,5 @@ mod 'ntp',
 
 mod 'profile',
   :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
-  :ref    => 'development'
+  :ref    => 'dev'
 
