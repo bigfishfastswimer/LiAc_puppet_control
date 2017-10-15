@@ -19,7 +19,7 @@ mod "puppetlabs/java",      '1.6.0'
 #  :branch => 'docs_experiment'
 mod 'ssh',
   :git    => 'https://github.com/bigfishfastswimer/LiAc_puppet_ssh.git',
-  :ref    => 'master'
+  :ref    => 'dev'
 mod 'ntp',
   :git    => 'https://github.com/bigfishfastswimer/-LiAc_puppet_ntp.git',
   :ref    => 'dev'
