@@ -24,6 +24,6 @@ mod 'ntp',
   :git    => 'https://github.com/bigfishfastswimer/-LiAc_puppet_ntp.git',
   :ref    => 'dev'
 mod 'profile',
-  :git    => 'https://github.com/bigfishfastswimer/LiAc_profile.git',
+  :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
   :ref    => 'dev'
 
