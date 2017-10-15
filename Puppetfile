@@ -25,10 +25,10 @@ mod 'ssh',
 
 mod 'ntp',
   :git    => 'https://github.com/bigfishfastswimer/-LiAc_puppet_ntp.git',
-  :ref    => 'master'
+  :ref    => 'dev'
 
 
 mod 'profile',
   :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
-  :ref    => 'master'
+  :ref    => 'development'
 
