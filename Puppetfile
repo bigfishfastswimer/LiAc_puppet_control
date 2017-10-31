@@ -6,6 +6,9 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",      '1.6.0'
+mod "puppet/selinux",         '0.8.0'
+mod "garethr/docker",         '5.3.0'
+mod "puppetlabs/apt",         '2.3.0'
 
 
 # Modules from Git
@@ -30,5 +33,12 @@ mod 'ntp',
 
 mod 'profile',
   :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
-  :ref    => 'dev'
+  :ref    => 'production'
 
+  mod 'role',
+    :git => 'https://github.com/bigfishfastswimer/LiAc_role.git',
+    :ref => 'production'
+
+  mod 'nginx',
+    :git => 'https://github.com/bigfishfastswimer/LiAc_Nginx.git',
+    :ref => 'master'
