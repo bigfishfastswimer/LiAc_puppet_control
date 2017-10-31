@@ -21,23 +21,23 @@ mod "puppetlabs/docker",   '1.0.0'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git    => 'https://github.com/bigfishfastswimer/LiAc_puppet_ssh.git',
+  :git    => 'git@github.com:igfishfastswimer/LiAc_puppet_ssh.git',
   :ref    => 'master'
 
 
 mod 'ntp',
-  :git    => 'https://github.com/bigfishfastswimer/-LiAc_puppet_ntp.git',
+  :git    => 'git@github.com:bigfishfastswimer/-LiAc_puppet_ntp.git',
   :ref    => 'dev'
 
 
-  mod 'profile',
-    :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
-    :ref    => 'dev'
+mod 'profile',
+  :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
+  :ref    => 'dev'
 
-  mod 'role',
-    :git => 'https://github.com/bigfishfastswimer/LiAc_role.git',
-    :ref => 'dev'
+mod 'role',
+  :git => 'git@github.com:bigfishfastswimer/LiAc_role.git',
+  :ref => 'dev'
 
-  mod 'nginx',
-    :git => 'https://github.com/bigfishfastswimer/LiAc_Nginx.git',
-    :ref => 'dev'
+mod 'nginx',
+  :git => 'git@github.com:bigfishfastswimer/LiAc_Nginx.git',
+  :ref => 'dev'
