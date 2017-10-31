@@ -41,4 +41,4 @@ mod 'role',
 
 mod 'nginx',
   :git => 'https://github.com/bigfishfastswimer/LiAc_Nginx.git',
-  :ref => 'production
+  :ref => 'production'
