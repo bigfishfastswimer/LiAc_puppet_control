@@ -35,10 +35,10 @@ mod 'profile',
   :git    => 'git@github.com:bigfishfastswimer/LiAc_profile.git',
   :ref    => 'production'
 
-  mod 'role',
-    :git => 'https://github.com/bigfishfastswimer/LiAc_role.git',
-    :ref => 'production'
+mod 'role',
+  :git => 'https://github.com/bigfishfastswimer/LiAc_role.git',
+  :ref => 'production'
 
-  mod 'nginx',
-    :git => 'https://github.com/bigfishfastswimer/LiAc_Nginx.git',
-    :ref => 'master'
+mod 'nginx',
+  :git => 'https://github.com/bigfishfastswimer/LiAc_Nginx.git',
+  :ref => 'master'
