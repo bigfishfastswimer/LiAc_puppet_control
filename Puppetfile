@@ -20,9 +20,9 @@ mod "puppetlabs/docker",   '1.0.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ssh',
-  :git    => 'git@github.com:igfishfastswimer/LiAc_puppet_ssh.git',
-  :ref    => 'master'
+#mod 'ssh',
+#  :git    => 'git@github.com:igfishfastswimer/LiAc_puppet_ssh.git',
+#  :ref    => 'master'
 
 
 mod 'ntp',
