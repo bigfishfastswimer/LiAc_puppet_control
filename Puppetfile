@@ -21,9 +21,9 @@ mod "puppetlabs/apt",         '2.3.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-#mod 'ssh',
-#  :git    => 'https://github.com/bigfishfastswimer/LiAc_puppet_ssh.git',
-#  :ref    => 'master'
+mod 'ssh',
+  :git    => 'https://github.com/bigfishfastswimer/LiAc_puppet_ssh.git',
+  :ref    => 'master'
 
 
 mod 'ntp',
